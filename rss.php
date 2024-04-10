@@ -360,7 +360,9 @@ class RssGenerator
      */
     public function displayRss()
     {
-        print($this->rssNode->asXML());
+      $dom = dom_import_simplexml($this->rssNode)->ownerDocument;
+      $dom->formatOutput = true;
+      print($dom->saveXML());
     }
 }
 
