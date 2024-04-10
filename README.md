@@ -50,5 +50,6 @@ To add id3tags to your files, we advise the following free softwares :
 
 ## Sources
 
+The [getID3](https://github.com/JamesHeinrich/getID3) lib is used for ID3Tags parsing.
 The XSL template has been copied (and updated) from [https://github.com/TheCraigHewitt/Seriously-Simple-Podcasting](https://github.com/TheCraigHewitt/Seriously-Simple-Podcasting)
 This project is a fork of [misnard/Podcast-rss-generator-from-folder](https://github.com/misnard/Podcast-rss-generator-from-folder).
