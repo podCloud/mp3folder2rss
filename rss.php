@@ -17,7 +17,7 @@ class BootstrapGenerator
 
         if (!file_exists('./.rss-dependencies/.cache/id3requirements')) {
             mkdir('./.rss-dependencies/.cache/id3requirements');
-            $file = file_get_contents('https://github.com/misnard/getID3/archive/master.zip');
+            $file = file_get_contents('https://github.com/JamesHeinrich/getID3/archive/master.zip');
             file_put_contents('./.rss-dependencies/.cache/id3requirements/master.zip', $file);
 
             $zip = new ZipArchive;
